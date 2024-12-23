@@ -1,7 +1,7 @@
 [package]
 name = "appwrite-console"
 version = "0.1.0"
-description = "A Tauri App"
+description = "The app is a simple wrapper around the Appwrite console web interface, allowing you to access the console from a native application on any operating system."
 authors = ["you"]
 edition = "2021"
 
