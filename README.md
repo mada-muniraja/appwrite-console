@@ -17,25 +17,25 @@ $ git clone https://github.com/mada-muniraja/appwrite-console.git && cd appwrite
 ### Install the Tauri CLI tool
 
 ```
-$ cargo install tauri-cli
+cargo install tauri-cli
 ```
 
 ### Build Dektop application
 
 ```
-$ cargo tauri build
+cargo tauri build
 ```
 
 ### Build Android apk
 
 ```
-$ cargo tauri android build --apk
+cargo tauri android build --apk
 ```
 
 ### Build Android App Bundle
 
 ```
-$ cargo tauri android build --aab
+cargo tauri android build --aab
 ```
 
 ## Recommended IDE Setup
