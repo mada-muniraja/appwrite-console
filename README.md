@@ -6,10 +6,10 @@ The app is a simple wrapper around the Appwrite console web interface, allowing 
 
 ## Build the app using source
 
-1. Clone the repository and navigate to the project directory.
-2. Install the required tools using `cargo install tauri-cli` and `npm install`.
-3. Build the frontend by executing `npm run build`.
-4. Compile the application with `npx tauri build`.
+1. <i class="fa fa-clone" aria-hidden="true"></i> Clone the repository and change into the directory.
+2. <i class="fa fa-cog" aria-hidden="true"></i> Install the dependencies with `cargo install tauri-cli` and `npm install`.
+3. <i class="fa fa-cogs" aria-hidden="true"></i> Run `npm run build` to build the frontend.
+4. <i class="fa fa-wrench" aria-hidden="true"></i> Run `npx tauri build` to build the app.
 
 ## Recommended IDE Setup
 
