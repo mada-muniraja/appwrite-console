@@ -1,8 +1,8 @@
-# Appwrite Console Cross-Platform App
+# Appwrite Console Desktop App
 
-This is an unofficial cross-platform app for [Appwrite Console](https://cloud.appwrite.io/) made with [Tauri](https://tauri.app/).
+This is an unofficial desktop app for [Appwrite Console](https://cloud.appwrite.io/) made with [Tauri](https://tauri.app/).
 
-The app is a simple wrapper around the Appwrite console web interface, allowing you to access the console from a native application on any operating systems.
+The app is a simple wrapper around the Appwrite console web interface, allowing you to access the console from a native desktop application.
 
 ![Appwrite project dashboard showing various Appwrite features](./resources/github.png)
 
@@ -28,18 +28,6 @@ cargo install tauri-cli
 
 ```
 cargo tauri build
-```
-
-### Build Android apk
-
-```
-cargo tauri android build --apk
-```
-
-### Build Android App Bundle
-
-```
-cargo tauri android build --aab
 ```
 
 ## Recommended IDE Setup
