@@ -19,8 +19,7 @@
         "theme": "Dark",
         "center": true,
         "alwaysOnTop": false,
-        "skipTaskbar": false,
-        "visible": false
+        "skipTaskbar": false
       }
       
       
