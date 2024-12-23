@@ -8,6 +8,10 @@ The app is a simple wrapper around the Appwrite console web interface, allowing 
 
 ## Build the app from source
 
+### Setup your system for Tauri
+
+Please check this URL: https://tauri.app/start/prerequisites/
+
 ### Clone the repository
 
 ```
