@@ -10,7 +10,7 @@ The app is a simple wrapper around the Appwrite console web interface, allowing 
 
 ### Setup your system for Tauri
 
-Please check this URL: https://tauri.app/start/prerequisites/
+Please check this URL: <https://tauri.app/start/prerequisites/>
 
 ### Clone the repository
 
