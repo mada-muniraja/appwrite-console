@@ -2,7 +2,9 @@
 
 This is an unofficial cross-platform app for [Appwrite Console](https://cloud.appwrite.io/) made with [Tauri](https://tauri.app/).
 
-The app is a simple wrapper around the Appwrite console web interface, allowing you to access the console from a native application on any operating system.
+The app is a simple wrapper around the Appwrite console web interface, allowing you to access the console from a native application on any operating systems.
+
+![Appwrite project dashboard showing various Appwrite features](./resources/github.png)
 
 ## Build the app using source
 
