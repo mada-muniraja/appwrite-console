@@ -6,9 +6,9 @@ The app is a simple wrapper around the Appwrite console web interface, allowing 
 
 ![Appwrite project dashboard showing various Appwrite features](./resources/github.png)
 
-## Build the app using source
+## Build the app from source
 
-### Clone the repository to a local directory
+### Clone the repository
 
 ```
 $ git clone https://github.com/mada-muniraja/appwrite-console.git && cd appwrite-console
@@ -20,19 +20,19 @@ $ git clone https://github.com/mada-muniraja/appwrite-console.git && cd appwrite
 $ cargo install tauri-cli
 ```
 
-### Build the Tauri Dektop application
+### Build Dektop application
 
 ```
 $ cargo tauri build
 ```
 
-### Build the Tauri Android apk
+### Build Android apk
 
 ```
 $ cargo tauri android build --apk
 ```
 
-### Build the Tauri Android App Bundle
+### Build Android App Bundle
 
 ```
 $ cargo tauri android build --aab
