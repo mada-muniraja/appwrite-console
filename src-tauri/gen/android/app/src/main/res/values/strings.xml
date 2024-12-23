@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">appwrite-console</string>
+    <string name="main_activity_title">appwrite-console</string>
+</resources>

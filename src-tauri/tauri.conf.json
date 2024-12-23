@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "appwrite-console",
+  "version": "0.1.0",
+  "identifier": "com.rajatechlabs.appwrite.console",
+  "build": {
+    "frontendDist": "../src"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "backgroundColor": "#19191D",
+        "label": "main",
+        "fullscreen": false,
+        "title": "Appwrite Console",
+        "width": 800,
+        "height": 600,
+        "theme": "Dark",
+        "center": true,
+        "alwaysOnTop": false,
+        "skipTaskbar": false,
+        "visible": false
+      }
+      
+      
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "shortDescription": "Unofficial Appwrite Console desktop app made with Tauri"
+  }
+}
