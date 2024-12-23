@@ -6,10 +6,18 @@ The app is a simple wrapper around the Appwrite console web interface, allowing 
 
 ## Build the app using source
 
-1. <i class="fa fa-clone" aria-hidden="true"></i> Clone the repository and change into the directory.
-2. <i class="fa fa-cog" aria-hidden="true"></i> Install the dependencies with `cargo install tauri-cli` and `npm install`.
-3. <i class="fa fa-cogs" aria-hidden="true"></i> Run `npm run build` to build the frontend.
-4. <i class="fa fa-wrench" aria-hidden="true"></i> Run `npx tauri build` to build the app.
+```
+$ git clone https://github.com/rajat-singh/appwrite-console-app && cd appwrite-console-app
+# Clone the repository to a local directory
+$ cargo install tauri-cli
+# Install the Tauri CLI tool
+$ npm install
+# Install the dependencies for the front-end
+$ npm run build
+# Build the front-end
+$ npx tauri build
+# Build the Tauri application
+```
 
 ## Recommended IDE Setup
 
