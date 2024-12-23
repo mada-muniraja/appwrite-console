@@ -18,16 +18,22 @@ $ git clone https://github.com/mada-muniraja/appwrite-console.git && cd appwrite
 $ cargo install tauri-cli
 ```
 
-### Install the dependencies for the front-end
+### Build the Tauri Dektop application
 
 ```
-$ npm install
+$ cargo tauri build
 ```
 
-### Build the Tauri application
+### Build the Tauri Android apk
 
 ```
-$ npx tauri build
+$ cargo tauri android build --apk
+```
+
+### Build the Tauri Android App Bundle
+
+```
+$ cargo tauri android build --aab
 ```
 
 ## Recommended IDE Setup
