@@ -7,10 +7,12 @@ pub fn run() {
     tauri::Builder::default()
         .setup(|app| {
             let window = app.get_webview_window("main").unwrap();
+
             // Update the URL to https://cloud.appwrite.io
             window
                 .eval("window.location.replace('https://cloud.appwrite.io');")
                 .unwrap();
+            // Close the splashscreen window
             Ok(())
         })
         .run(tauri::generate_context!())

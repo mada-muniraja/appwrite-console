@@ -24,6 +24,14 @@
             </intent-filter>
         </activity>
 
+        <!-- Set status bar and navigation bar colors -->
+        <meta-data
+            android:name="android.statusBarColor"
+            android:resource="@color/status_bar_color" />
+        <meta-data
+            android:name="android.navigationBarColor"
+            android:resource="@color/navigation_bar_color" />
+
         <provider
           android:name="androidx.core.content.FileProvider"
           android:authorities="${applicationId}.fileprovider"

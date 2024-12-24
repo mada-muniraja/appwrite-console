@@ -19,7 +19,13 @@
         "theme": "Dark",
         "center": true,
         "alwaysOnTop": false,
-        "skipTaskbar": false
+        "skipTaskbar": false,
+        "visible": false,
+        "dragDropEnabled": true
+      },
+      {
+        "label": "splashscreen",
+        "url": "/splashscreen"
       }
       
       
@@ -29,6 +35,9 @@
     }
   },
   "bundle": {
+    "android": {
+      "minSdkVersion": 24
+    },
     "active": true,
     "targets": "all",
     "icon": [
