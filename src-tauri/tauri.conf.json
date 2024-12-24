@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "appwrite-console",
+  "productName": "Appwrite Console",
   "version": "0.1.0",
   "identifier": "com.rajatechlabs.appwrite.console",
   "build": {
@@ -19,16 +19,8 @@
         "theme": "Dark",
         "center": true,
         "alwaysOnTop": false,
-        "skipTaskbar": false,
-        "visible": false,
         "dragDropEnabled": true
-      },
-      {
-        "label": "splashscreen",
-        "url": "/splashscreen"
       }
-      
-      
     ],
     "security": {
       "csp": null
@@ -47,6 +39,5 @@
       "icons/icon.icns",
       "icons/icon.ico"
     ]
-    
   }
 }
